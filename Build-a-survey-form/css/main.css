@@ -148,6 +148,8 @@ form {
 	cursor: pointer;
 	border: none;
 	font-size: 1.25rem;
+	justify-content: center;
+	align-items: center;
 }
 
 label {
