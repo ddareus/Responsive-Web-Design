@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build a Product Landing Page</title>
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- font awesome-->
+    <script src="./js/all.js"></script>
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <!-- main css-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<!-- Nav Bar -->
+<header id="header">
+    <nav class="navbar navbar-expand-md px-4 justify-content-center" id="nav-bar">
+        <div><a href="#" class="navbar-brand">
+                <img src="images/original_trombones.png" alt="original trombones logo" id="header-img">
+            </a>
+        </div>
+        <div class="nav-info-items flex">
+            <!-- Nav items -->
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Of Nav Bar -->
+</header>
+<!-- End of Header -->
+<!-- Hero Section -->
+<div class="container">
+    <section id="hero">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+            <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+    </section>
+</div>
+<!-- End of Hero Section -->
+<!-- Features Section -->
+<div class="container">
+    <section id="features">
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+                <h2>Premium Materials</h2>
+                <p>
+                    Our trombones use the shiniest brass which is sourced locally. This
+                    will increase the longevity of your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+                <h2>Fast Shipping</h2>
+                <p>
+                    We make sure you recieve your trombone as soon as we have finished
+                    making it. We also provide free returns if you are not satisfied.
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon">
+                <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+                <h2>Quality Assurance</h2>
+                <p>
+                    For every purchase you make, we will ensure there are no damages or
+                    faults and we will check and test the pitch of your instrument.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- End of Features Section -->
+
+<!-- How it works -->
+<section id="how-it-works">
+    <iframe id="video" height="315"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+        allowfullscreen></iframe>
+</section>
+<!-- End of How it works -->
+<!-- Pricing Section -->
+<section id="pricing">
+    <div class="product" id="tenor">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+    </div>
+    <div class="product" id="bass">
+        <div class="level">Bass Trombone</div>
+        <h2>$900</h2>
+        <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+    </div>
+    <div class="product" id="valve">
+        <div class="level">Valve Trombone</div>
+        <h2>$1200</h2>
+        <ol>
+            <li>Plays similar to a Trumpet</li>
+            <li>Great for Jazz Bands</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+    </div>
+</section>
+<!-- Pricing Section -->
+
+
+<!-- Footer Section -->
+<footer>
+    <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2020, Original Trombones. All rights reserved. By Daniel Daréus of&nbsp<a href="www.santabarbaraproduction.net"> Santa Barbara Production.</a></span>
+</footer>
+
+<body>
+    <!-- jquery-->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap javascript-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
