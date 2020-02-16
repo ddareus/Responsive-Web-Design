@@ -152,3 +152,8 @@ code {
         min-width: 233px;
     }
 }
+
+.copyright p    {
+    font-style: italic;
+    margin-top: 5rem;
+}
